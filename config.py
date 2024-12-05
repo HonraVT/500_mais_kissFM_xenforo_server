@@ -9,7 +9,6 @@ class Config:
     IS_DEMO: bool
     FORUM_URL: str
     COOKIE: str
-    THREAD_ID: str
 
     def __init__(self, file=FILE):
         try:
